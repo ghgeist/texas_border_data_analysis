@@ -4,7 +4,7 @@ Add A.I. generated image here
 
 # Project Overview
 
-Inspired by ProPublica’s recent [investigation](https://www.propublica.org/article/texas-governor-brags-about-his-border-initiative-the-data-doesnt-back-him-up) into the current border crisis and controversies around Operation Lone Star, I decided to take a look at the Texas Department of Safety's Border Report [data](https://txucr.nibrs.com/Report/BorderReport), and answer the following questions:
+Inspired by ProPublica’s [investigation](https://www.propublica.org/article/texas-governor-brags-about-his-border-initiative-the-data-doesnt-back-him-up) into the current border crisis and controversies around Operation Lone Star, I decided to take a look at the Texas Department of Safety's Border Report [data](https://txucr.nibrs.com/Report/BorderReport), and answer the following questions:
 
   - How accessible is the data?
   - How complete is the data?
