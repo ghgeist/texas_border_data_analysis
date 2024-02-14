@@ -1,5 +1,8 @@
 Add A.I. generated image here
 
+# To Do
+- Figure out how to cite my work
+
 # Trouble in Texas: Insights from the Texas Department of Public Safety’s Border Report
 
 # Project Overview
