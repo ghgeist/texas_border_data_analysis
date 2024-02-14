@@ -13,7 +13,7 @@ Inspired by ProPublica’s [investigation](https://www.propublica.org/article/te
 # Installation and Setup
 
 ## Codes and Resources Used
-- **Editor Used:**  VSCode
+- **Editor:**  VSCode
 - **Python Version:** 3.12.0
 
 ## Python Packages Used
@@ -40,6 +40,7 @@ In the [01_consolidate_and_check_data](https://github.com/ghgeist/texas_border_d
 Data from TDPS is hard to access and comprehend. Searching 'texas crime data' on Google will generate [Crime in Texas | Department of Public Safety](https://www.dps.texas.gov/section/crime-records/crime-texas) as the first link, but as of February 14, 2024, the most recent report is a 64 page PDF from 2022 that is difficult to read due to its preference for tables over graphs. The fourth result for 'texas crime data' will lead you to the TDPS's Uniform Crime Reporting System (UCRS) [website](https://txucr.nibrs.com/Home/Index), but data can only really be access via the 'Reports' option. Here users will find an option under 'Texas Reports' to download the 'Border Report' by year, but maybe have issues with the SQL server timing out. The data is only provided as a .xlsx file, and either programming knowledge or advance Excel skills are required to combine the yearly reports into a usuable format. 
 
 ## Data Completeness
+
 ## Trend Analysis
 
 # Future work
