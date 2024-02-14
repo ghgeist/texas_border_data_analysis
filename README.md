@@ -39,13 +39,13 @@ Prior to 2023, crime reporting in Texas was _voluntary_. It was only in 2023 tha
 - [01_consolidate_and_check_data](https://github.com/ghgeist/texas_border_data_analysis/blob/main/notebooks/01_consolidate_and_check_data.ipynb)
   - Combines the yearly reports
   - Checks to make sure the agencies and crime categories are the same across each report
-- [notebooks/02_enrich_dataset.ipynb](https://github.com/ghgeist/texas_border_data_analysis/blob/main/notebooks/02_enrich_dataset.ipynb)
+- [02_enrich_dataset.ipynb](https://github.com/ghgeist/texas_border_data_analysis/blob/main/notebooks/02_enrich_dataset.ipynb)
   - Identifies which agencies cover community colleges or universities
   - Calculates NIBRS contribution percentage per agency and report, adjusting for the eligible time period 
 
 # Results
 ## Data Accessibility
-Data from TDPS is hard to access and comprehend. Searching 'texas crime data' on Google will generate [Crime in Texas | Department of Public Safety](https://www.dps.texas.gov/section/crime-records/crime-texas) as the first link, but as of February 14, 2024, the most recent report is a 64 page PDF from 2022 that is difficult to read due to its preference for tables over graphs. The fourth result for 'texas crime data' will lead you to the TDPS's Uniform Crime Reporting System (UCRS) [website](https://txucr.nibrs.com/Home/Index), but data can only really be access via the 'Reports' option. Here users will find an option under 'Texas Reports' to download the 'Border Report' by year, but maybe have issues with the SQL server timing out. The data is only provided as a .xlsx file, and either programming knowledge or advance Excel skills are required to combine the yearly reports into a usuable format. 
+Data from TDPS is hard to access and comprehend. Searching 'texas crime data' on Google will generate [Crime in Texas | Department of Public Safety](https://www.dps.texas.gov/section/crime-records/crime-texas) as the first link, but as of February 14, 2024, the most recent report is a 64 page PDF from 2022 that is difficult to read due to its preference for tables over graphs. The fourth result for 'texas crime data' will lead to the TDPS's Uniform Crime Reporting System (UCRS) [website](https://txucr.nibrs.com/Home/Index), but data can only really be access via the 'Reports' option. Here users will find an option under 'Texas Reports' to download the 'Border Report' by year, but may have issues with the SQL server timing out. The data is only provided as a .xlsx file, and either programming or advance Excel skills are required to combine the yearly reports into a usuable format. 
 
 ## Data Completeness
 
