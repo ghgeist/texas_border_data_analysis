@@ -35,6 +35,9 @@ The report for each year needs to be downloaded individually. Each report is a .
 ### Contex
 Prior to 2023, crime reporting in Texas was _voluntary_. It was only in 2023 that the Texas Legislature mandated that local law enforcement agencies implement an incident-based reporting system and use it to report data and statistics to the Unified Crime Reporting (UCR) program. Currently, TDPS is transitioning between between the FBI's legacy UCR, Summary Reporting System (SRS), to the new National Incident-Based Reporting System (NIBRS) which is more detailed. Although NIBRS has been approved for general use since March 1988 [source](https://www2.fbi.gov/ucr/faqs.htm), only 73% of the U.S.'s law enforcement agencies are participating as of Quarter 3, inclusive of January through September 2023 [source](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/quarterly). The Marshall Project did some excellent reporting on the issues and consequences around this transition in July 2023: [link](https://www.themarshallproject.org/2023/07/13/fbi-crime-rates-data-gap-nibrs)
 
+### Summary
+TO DO: Add in a graph here that shows the county and law enforcement agencies that are covered by the report
+
 ## Data Preprocessing
 - [01_consolidate_and_check_data](https://github.com/ghgeist/texas_border_data_analysis/blob/main/notebooks/01_consolidate_and_check_data.ipynb)
   - Combines the yearly reports
