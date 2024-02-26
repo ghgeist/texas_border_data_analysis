@@ -21,7 +21,7 @@ Inspired by ProPublica’s [investigation](https://www.propublica.org/article/te
 
 ## Python Packages Used
 - **General Purpose:** os, re, datetime
-- **Data Manipulation:** pandas
+- **Data Manipulation:** pandas, geopandas, shapely
 - **Data Visualization:** seaborn, matplotlib
 - **Statistical Analysis:** scipy
 
