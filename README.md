@@ -93,8 +93,15 @@ Data from TDPS is hard to access and comprehend. Searching 'texas crime data' on
 
 ## Data Completeness
 
-NIBRS adoption in the border states has been slow (comment on when 
 ![image](https://github.com/ghgeist/texas_border_data_analysis/assets/22363767/d00c93f5-5910-4960-83cd-7f5c420b2813)
+
+TO DO: Look at this table and figure out what to say
+
+| Adoption Status   |   Count of Agencies |   Percentage |
+|:------------------|-------------------------------:|-------------:|
+| early             |                             47 |        55.29 |
+| on time           |                             28 |        32.94 |
+| late              |                             10 |        11.76 |
 
 The Marshall project on missing data -> https://www.themarshallproject.org/2023/07/13/fbi-crime-rates-data-gap-nibrs
 The FBI stopped taking SRS reports in 2021
