@@ -4,6 +4,7 @@ Add A.I. generated image here
 - Figure out how to cite my work
 - Add A.I.generated image header
 - Take a look at the population numbers
+- figure out what to do with the crime classifications
 
 # Trouble in Texas: Insights from the Texas Department of Public Safety’s Border Report
 
