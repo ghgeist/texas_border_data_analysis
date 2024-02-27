@@ -38,7 +38,8 @@ Prior to 2023, crime reporting in Texas was _voluntary_. It was only in 2023 tha
 
 ### Summary
 There are 85 agencies in the border report covering 14 counties
-![image](https://github.com/ghgeist/texas_border_data_analysis/assets/22363767/6f9267e9-2261-4a86-acc5-480bd953ab7b)
+
+![image](https://github.com/ghgeist/texas_border_data_analysis/assets/22363767/6c896ad8-3317-4b37-a097-ca0cd4207bda)
 
 
 
