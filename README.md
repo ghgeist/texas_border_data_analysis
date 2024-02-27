@@ -95,7 +95,7 @@ Data from TDPS is hard to access and comprehend. Searching 'texas crime data' on
 
 ![image](https://github.com/ghgeist/texas_border_data_analysis/assets/22363767/d00c93f5-5910-4960-83cd-7f5c420b2813)
 
-TO DO: Look at this table and figure out what to say
+TO DO: Look at this table and figure out what to say. I think we want to talk about how the start dates don't necessarily mean that the data is there
 
 | Adoption Status   |   Count of Agencies |   Percentage |
 |:------------------|-------------------------------:|-------------:|
