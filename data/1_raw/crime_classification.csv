@@ -1,0 +1,12 @@
+crime,is_violent_crime,is_property_crime,is_crime_against_person,is_crime_against_property,is_crime_involving_coercion_or_exploitation,is_serious_felony,is_theft_related_crime,is_crime_involving_sexual_offenses
+murder_and_nonnegligent_manslaughter,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+negligent_manslaughter,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+rape,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE
+robbery,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+assault,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+burglary,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE
+larceny_theft,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+motor_vehicle_theft,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+arson,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+human_trafficking_commercial_sex_acts,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+human_trafficking_involuntary_servitude,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
