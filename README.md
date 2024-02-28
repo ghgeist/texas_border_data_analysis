@@ -26,7 +26,6 @@ Inspired by ProPublica’s [investigation](https://www.propublica.org/article/te
 - **General Purpose:** os, re, datetime
 - **Data Manipulation:** pandas, geopandas, shapely
 - **Data Visualization:** seaborn, matplotlib
-- **Statistical Analysis:** scipy
 
 # Data
 
@@ -34,7 +33,6 @@ Inspired by ProPublica’s [investigation](https://www.propublica.org/article/te
 ### Technical notes
 The TDPS's Border Report data can be found here: https://txucr.nibrs.com/Report/BorderReport. 
 The report for each year needs to be downloaded individually. Each report is a .xlsx file with three tabs: By Agency, By Month, By Crime Statistic. For the purpose of this project, I analyzed the data on the 'By Agency' tab for the years 2017 to 2023.
-
 
 ### Context
 Prior to 2023, crime reporting in Texas was _voluntary_. It was only in 2023 that the Texas Legislature mandated that local law enforcement agencies implement an incident-based reporting system and use it to report data and statistics to the Unified Crime Reporting (UCR) program. Currently, TDPS is transitioning between the FBI's legacy UCR, Summary Reporting System (SRS), to the new National Incident-Based Reporting System (NIBRS) which is more detailed. Although NIBRS has been approved for general use since March 1988 [source](https://www2.fbi.gov/ucr/faqs.htm), only 73% of the U.S.'s law enforcement agencies are participating as of the third quarter in 2023 [source](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/quarterly). The Marshall Project did some excellent reporting on the issues and consequences around this transition in July 2023: [link](https://www.themarshallproject.org/2023/07/13/fbi-crime-rates-data-gap-nibrs)
@@ -66,8 +64,8 @@ Of the 85 law enforcement agencies, there are 5 university police departments in
 | University of Texas: El Paso PD             |
 
 Here are the crimes that are reported on:
-* Murder and  Nonnegligent  Manslaughter
-* Negligent  Manslaughter
+* Murder and Nonnegligent  Manslaughter
+* Negligent Manslaughter
 * Rape (includes Sexual Assault with an Object, and Sodomy)
 * Robbery
 * Assault (includes Aggravated Assault and Simple Assault)
@@ -76,7 +74,7 @@ Here are the crimes that are reported on:
 * Motor Vehicle Theft
 * Arson
 * Human Trafficking, Commercial  Sex  Acts
-* Human  Trafficking, Involuntary  Servitude
+* Human Trafficking, Involuntary  Servitude
   
 ## Data Preprocessing
 - [01_consolidate_and_check_data](https://github.com/ghgeist/texas_border_data_analysis/blob/main/notebooks/01_consolidate_and_check_data.ipynb)
@@ -85,27 +83,23 @@ Here are the crimes that are reported on:
 - [02_enrich_dataset.ipynb](https://github.com/ghgeist/texas_border_data_analysis/blob/main/notebooks/02_enrich_dataset.ipynb)
   - Identifies which agencies cover community colleges or universities
   - Identifies the type of agency (sheriff's office, police department, marshal's office, 
-  - Calculates NIBRS contribution percentage per agency and report, adjusting for the eligible time period 
+  - Calculates NIBRS contribution percentage per agency and report, adjusting for the eligible time period
+  - Creates quarterly and yearly cohorts based upon when an agency started to contribute to NIBRS
+  - Creates 'adoption_status' indicating if the agency started sending NIBRS data before, on or after the FBI's transition to NIBRS only in 2021 
 
 # Results
 ## Data Accessibility
 Data from TDPS is hard to access and comprehend. Searching 'texas crime data' on Google will generate [Crime in Texas | Department of Public Safety](https://www.dps.texas.gov/section/crime-records/crime-texas) as the first link, but as of February 14, 2024, the most recent report is a 64 page PDF from 2022 that is difficult to read due to its preference for tables over graphs. The fourth result for 'texas crime data' will lead to the TDPS's Uniform Crime Reporting System (UCRS) [website](https://txucr.nibrs.com/Home/Index), but data can only be accessed via the 'Reports' option. Here users will find an option under 'Texas Reports' to download the 'Border Report' by year, but may have issues with the SQL server timing out. The data is only provided as a .xlsx file, and either programming or advance Excel skills are required to combine the yearly reports into a usuable format. 
 
 ## Data Completeness
+In 2021, the FBI stopped accepting SRS data and only accepted NIBRS data in order to fully modernize its crime reporting system [source]([https://www.dps.texas.gov/section/crime-records/crime-texas](https://www.themarshallproject.org/2023/07/13/fbi-crime-rates-data-gap-nibrs). Based upon the reported NIBRS start dates in the TDPS border reports, 88.23% of law enforcement agencies in the border counties had either transitioned or were in the process of transition in 2021, but it seems like the remaining agencies are still strugging to submit data.
+| Adoption Status   |   Count of Agencies |   Percent of Agencies |   Avg. NIBRS Contribution Percentage |
+|:------------------|--------------------:|-------------------------:|------------------------------------:|
+| early             |                  47 |                    55.29 |                               83.72 |
+| on time           |                  28 |                    32.94 |                               90.24 |
+| late              |                  10 |                    11.76 |                               43.16 |
 
-![image](https://github.com/ghgeist/texas_border_data_analysis/assets/22363767/d00c93f5-5910-4960-83cd-7f5c420b2813)
-
-TO DO: Look at this table and figure out what to say. I think we want to talk about how the start dates don't necessarily mean that the data is there
-
-| Adoption Status   |   Count of Agencies |   Percentage |
-|:------------------|-------------------------------:|-------------:|
-| early             |                             47 |        55.29 |
-| on time           |                             28 |        32.94 |
-| late              |                             10 |        11.76 |
-
-The Marshall project on missing data -> https://www.themarshallproject.org/2023/07/13/fbi-crime-rates-data-gap-nibrs
-The FBI stopped taking SRS reports in 2021
-
+To Do: Calculate data completeness
 
 ## Trend Analysis
 
