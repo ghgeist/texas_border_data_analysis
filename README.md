@@ -109,7 +109,10 @@ In 2021, the FBI stopped accepting SRS data and only accepted NIBRS data in orde
 As a result, the overall data completeness for the entire dataset is 49.31 %, and only two agencies (Roma PD and San Juan PD) submitted data for every month between 2017 and 2023. 
 
 ## Trend Analysis
-How might we understand claims about immigration problems? We can probably look at stats around human trafficking. 
+TO DO:
+- Comment on overall crime trends
+- Comment on human trafficking
+- Take a look at corruption allegations aimed at the various agencies
 
 # Future work
 Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
