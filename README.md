@@ -120,10 +120,25 @@ In 2021, the FBI stopped accepting SRS data and only accepted NIBRS data in orde
 As a result, the overall data completeness for the entire dataset is 49.31 %, and only two agencies (Roma PD and San Juan PD) submitted data for every month between 2017 and 2023. 
 
 ## Trend Analysis
-TO DO:
-- Comment on overall crime trends
+![normalized_crime_trends](https://github.com/ghgeist/texas_border_data_analysis/assets/22363767/bf4b1ca3-07a6-45ad-a2c1-894582cf2027)
+
+From this graph, we can see that larency-theft and assault are the two most commonly record crimes. However, it seems that the border counties are rarely reporting human trafficking:
+| report_year   |   eligible_agencies |   Human Trafficking Commercial Sex Acts |   Human Trafficking Involuntary Servitude |
+|:--------------|--------------------:|----------------------------------------:|------------------------------------------:|
+| 2017          |                   7 |                                       0 |                                         0 |
+| 2018          |                  18 |                                       1 |                                         0 |
+| 2019          |                  32 |                                       6 |                                        51 |
+| 2020          |                  47 |                                       3 |                                        21 |
+| 2021          |                  75 |                                       4 |                                        64 |
+| 2022          |                  79 |                                      11 |                                       103 |
+| 2023          |                  85 |                                      12 |                                        71 |
+| **Total**     |                     |                                  **37** |                                    **310**| 
+In six years, there has only been 37 reports of human trafficking-commerical sex acts and 310 reports of human trafficking-involuntary servitude. These numbers seem low given the scope of the human trafficking problem in the United States. 
+
+TO DO: 
 - Comment on human trafficking
 - Take a look at corruption allegations aimed at the various agencies
+- Find some good numbers on human trafficking
 
 # Future work
 Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
