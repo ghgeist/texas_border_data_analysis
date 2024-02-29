@@ -75,7 +75,7 @@ Population varies by agency and report year. There are 24 law enforcement agenci
 | University Police |             6 |        25.00 |
 | Police Department |             1 |         4.17 |
 
-On average, the population in the border counties has decrease by -4.65%, but Hidalgo (McAllen), El Paso (El Paso) and Starr County () are growing:
+On average, the population in the border counties has decrease by -4.65%, but Hidalgo (McAllen), El Paso (El Paso) and Starr County are growing:
 | County         |   Latest Population |   Numerical Change |   Percent Change |
 |:---------------|--------------------:|-------------------:|-----------------:|
 | Hidalgo County |              888934 |              33597 |             3.93 |
