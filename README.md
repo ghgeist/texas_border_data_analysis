@@ -46,22 +46,14 @@ Here's a breakdown of the agency types within the report
 
 | Agency Type       |   Count of Agencies |   Percentage |
 |:------------------|--------------------:|-------------:|
-| Police Department |                  57 |        67.06 |
-| Sheriff's Office  |                  21 |        24.71 |
+| Police Department |                  44 |        51.76 |
+| Sheriff's Office  |                  17 |        20.00 |
+| School Police     |                  11 |        12.94 |
 | Constable         |                   6 |         7.06 |
+| University Police |                   6 |         7.06 |
 | Marshal           |                   1 |         1.18 |
 
 
-Of the 85 law enforcement agencies, there are 5 university police departments included in the report (5.88%).
-
-| University Police Departments               |
-|:--------------------------------------------|
-| El Paso Community College PD                |
-| Sul Ross State University PD                |
-| Texas State Technical College: Harlingen PD |
-| Texas A&M International University PD       |
-| University of Texas Rio Grande Valley PD    |
-| University of Texas: El Paso PD             |
 
 Here are the crimes that are reported on:
 * Murder and Nonnegligent  Manslaughter
@@ -75,14 +67,13 @@ Here are the crimes that are reported on:
 * Arson
 * Human Trafficking, Commercial  Sex  Acts
 * Human Trafficking, Involuntary  Servitude
-  
+
 ## Data Preprocessing
 - [01_consolidate_and_check_data](https://github.com/ghgeist/texas_border_data_analysis/blob/main/notebooks/01_consolidate_and_check_data.ipynb)
   - Combines the yearly reports (2017 - 2023)
   - Checks to make sure the agencies and crime categories are the same across each report
 - [02_enrich_dataset.ipynb](https://github.com/ghgeist/texas_border_data_analysis/blob/main/notebooks/02_enrich_dataset.ipynb)
-  - Identifies which agencies cover community colleges or universities
-  - Identifies the type of agency (sheriff's office, police department, marshal's office, 
+  - Identifies the type of agency (sheriff's office, police department, marshal's office, school police, university police)
   - Calculates NIBRS contribution percentage per agency and report, adjusting for the eligible time period
   - Creates quarterly and yearly cohorts based upon when an agency started to contribute to NIBRS
   - Creates 'adoption_status' indicating if the agency started sending NIBRS data before, on or after the FBI's transition to NIBRS only in 2021 
@@ -99,9 +90,10 @@ In 2021, the FBI stopped accepting SRS data and only accepted NIBRS data in orde
 | on time           |                  28 |                    32.94 |                               90.24 |
 | late              |                  10 |                    11.76 |                               43.16 |
 
-As a result, the overall data completeness for the entire dataset is 49.31 %, and only two agencies (Roma PD and San Juan PD) submitted data for every month between 2017 and 2023
+As a result, the overall data completeness for the entire dataset is 49.31 %, and only two agencies (Roma PD and San Juan PD) submitted data for every month between 2017 and 2023. 
 
 ## Trend Analysis
+How might we understand claims about immigration problems? We can probably look at stats around human trafficking. 
 
 # Future work
 Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
