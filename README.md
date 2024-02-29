@@ -3,7 +3,6 @@ Add A.I. generated image here
 # To Do
 - Figure out how to cite my work
 - Add A.I.generated image header
-- Take a look at the population numbers
 - figure out what to do with the crime classifications
 
 # Trouble in Texas: Insights from the Texas Department of Public Safety’s Border Report
@@ -42,7 +41,7 @@ The report covers 85 law enformcement agencies, 14 counties and 11 NIBRS crime t
 
 ![image](https://github.com/ghgeist/texas_border_data_analysis/assets/22363767/6c896ad8-3317-4b37-a097-ca0cd4207bda)
 
-Here's a breakdown of the agency types within the report
+Here's a breakdown of the agency types within the report:
 
 | Agency Type       |   Count of Agencies |   Percentage |
 |:------------------|--------------------:|-------------:|
@@ -52,7 +51,6 @@ Here's a breakdown of the agency types within the report
 | Constable         |                   6 |         7.06 |
 | University Police |                   6 |         7.06 |
 | Marshal           |                   1 |         1.18 |
-
 
 
 Here are the crimes that are reported on:
@@ -67,6 +65,24 @@ Here are the crimes that are reported on:
 * Arson
 * Human Trafficking, Commercial  Sex  Acts
 * Human Trafficking, Involuntary  Servitude
+
+Population varies by agency and report year. There are 24 law enforcement agencies reporting a population of zero, but these the majority of these agencies (70.83%) are responsible school or university safety:
+
+| agency_type       |   agency_name |   percentage |
+|:------------------|--------------:|-------------:|
+| School Police     |            11 |        45.83 |
+| Constable         |             6 |        25.00 |
+| University Police |             6 |        25.00 |
+| Police Department |             1 |         4.17 |
+
+On average, the population in the border counties has decrease by -4.65%, but Hidalgo (McAllen), El Paso (El Paso) and Starr County () are growing:
+| County         |   Latest Population |   Numerical Change |   Percent Change |
+|:---------------|--------------------:|-------------------:|-----------------:|
+| Hidalgo County |              888934 |              33597 |             3.93 |
+| El Paso County |              875027 |              32122 |             3.81 |
+| Starr County   |               66662 |               2102 |             3.26 |
+
+El Paso and McAllen are both critical border towns, and the growth in Starr County appears to be due to its lower housing costs and proximity to McAllen.
 
 ## Data Preprocessing
 - [01_consolidate_and_check_data](https://github.com/ghgeist/texas_border_data_analysis/blob/main/notebooks/01_consolidate_and_check_data.ipynb)
