@@ -133,6 +133,7 @@ From this graph, we can see that larency-theft and assault are the two most comm
 | 2022          |                  79 |                                      11 |                                       103 |
 | 2023          |                  85 |                                      12 |                                        71 |
 | **Total**     |                     |                                  **37** |                                    **310**| 
+
 In six years, there has only been 37 reports of human trafficking-commerical sex acts and 310 reports of human trafficking-involuntary servitude. These numbers seem low given the scope of the human trafficking problem in the United States. 
 
 TO DO: 
