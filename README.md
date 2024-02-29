@@ -52,20 +52,31 @@ Here's a breakdown of the agency types within the report:
 | University Police |                   6 |         7.06 |
 | Marshal           |                   1 |         1.18 |
 
+#### Crime Types and Definitions in NIBRS Reports:
 
-Here are the crimes that are reported on:
-* Murder and Nonnegligent  Manslaughter
-* Negligent Manslaughter
-* Rape (includes Sexual Assault with an Object, and Sodomy)
-* Robbery
-* Assault (includes Aggravated Assault and Simple Assault)
-* Burglary
-* Larceny, Theft
-* Motor Vehicle Theft
-* Arson
-* Human Trafficking, Commercial  Sex  Acts
-* Human Trafficking, Involuntary  Servitude
+- **Murder and Nonnegligent Manslaughter**: The willful (nonnegligent) killing of one human being by another, excluding deaths caused by negligence, attempts to kill, assaults to kill, suicides, accidental deaths, and justifiable homicides.
 
+- **Negligent Manslaughter**: The killing of another person through gross negligence, typically involving a death that occurs as a result of careless actions showing a lack of concern for the life and safety of others.
+
+- **Rape**: Includes the penetration, no matter how slight, of the vagina or anus with any body part or object, or oral penetration by a sex organ of another person, without the consent of the victim. This category includes Sexual Assault with an Object and Sodomy.
+
+- **Robbery**: Taking or attempting to take anything of value from a person or persons by force or threat of force or violence and/or by putting the victim in fear.
+
+- **Assault**: An unlawful attack by one person upon another for the purpose of inflicting severe or aggravated bodily injury. This category includes Aggravated Assault and Simple Assault.
+
+- **Burglary**: The unlawful entry of a structure to commit a felony or theft, without the use of force to gain entry.
+
+- **Larceny, Theft**: The unlawful taking, carrying, leading, or riding away of property from the possession or constructive possession of another.
+
+- **Motor Vehicle Theft**: The theft or attempted theft of a motor vehicle, including automobiles, trucks, buses, motorcycles, scooters, snowmobiles, and other vehicles.
+
+- **Arson**: Any willful or malicious burning or attempt to burn, with or without intent to defraud, a dwelling house, public building, motor vehicle or aircraft, or personal property of another.
+
+- **Human Trafficking, Commercial Sex Acts**: The induction of a person to perform a commercial sex act through force, fraud, or coercion, or where the person induced is under 18 years of age.
+
+- **Human Trafficking, Involuntary Servitude**: The obtaining of a person to perform labor or services through the use of force, fraud, or coercion for the purpose of subjecting that person to involuntary servitude, peonage, debt bondage, or slavery.
+
+#### Population
 Population varies by agency and report year. There are 24 law enforcement agencies reporting a population of zero, but these the majority of these agencies (70.83%) are responsible school or university safety:
 
 | agency_type       |   agency_name |   percentage |
