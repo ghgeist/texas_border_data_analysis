@@ -120,6 +120,8 @@ In 2021, the FBI stopped accepting SRS data and only accepted NIBRS data in orde
 As a result, the overall data completeness for the entire dataset is 49.31 %, and only two agencies (Roma PD and San Juan PD) submitted data for every month between 2017 and 2023. 
 
 ## Trend Analysis
+Given the NIBRS data completeness issues, I normalized the data by adjusting the crime counts on the weighted contribution of active agencies reporting the crimes per year. This makes the data comparable across years regardless of the number of reporting agencies or their reporting intensity. 
+
 ![normalized_crime_trends](https://github.com/ghgeist/texas_border_data_analysis/assets/22363767/bf4b1ca3-07a6-45ad-a2c1-894582cf2027)
 
 From this graph, we can see that larency-theft and assault are the two most commonly record crimes. However, it seems that the border counties are rarely reporting human trafficking:
