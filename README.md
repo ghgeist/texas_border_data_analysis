@@ -3,7 +3,6 @@ Add A.I. generated image here
 # To Do
 - Figure out how to cite my work
 - Add A.I.generated image header
-- figure out what to do with the crime classifications
 
 # Trouble in Texas: Insights from the Texas Department of Public Safety’s Border Report
 
@@ -13,7 +12,8 @@ Inspired by ProPublica’s [investigation](https://www.propublica.org/article/te
 
   - How accessible is the data?
   - How complete is the data?
-  - What are the trends within the data?
+  - What are the trends within the data, and what can I understand about the border crisis given these numbers?
+  - Are there any indications of corruption amongst the law enforcement agencies?
 
 # Installation and Setup
 
@@ -89,9 +89,9 @@ Population varies by agency and report year. There are 24 law enforcement agenci
 On average, the population in the border counties has decrease by -4.65%, but Hidalgo (McAllen), El Paso (El Paso) and Starr County are growing:
 | County         |   Latest Population |   Numerical Change |   Percent Change |
 |:---------------|--------------------:|-------------------:|-----------------:|
-| Hidalgo County |              888934 |              33597 |             3.93 |
-| El Paso County |              875027 |              32122 |             3.81 |
-| Starr County   |               66662 |               2102 |             3.26 |
+| Hidalgo County |              888,934 |              33,597 |             3.93 |
+| El Paso County |              875,027 |              32,122 |             3.81 |
+| Starr County   |               66,662 |               2,102 |             3.26 |
 
 El Paso and McAllen are both critical border towns, and the growth in Starr County appears to be due to its lower housing costs and proximity to McAllen.
 
@@ -136,17 +136,12 @@ From this graph, we can see that larency-theft and assault are the two most comm
 | 2023          |                  85 |                                      12 |                                        71 |
 | **Total**     |                     |                                  **37** |                                    **310**| 
 
-In six years, there has only been 37 reports of human trafficking-commerical sex acts and 310 reports of human trafficking-involuntary servitude. 
-To Do: Ask Polina for help putting this number into context. 
+In six years, there has only been 37 reports of human trafficking-commerical sex acts and 310 reports of human trafficking-involuntary servitude. These numbers likely misrepresent the reality considering the severity of human trafficking on the US-Mexico border. Both large criminal organizations and smaller local groups target migrants for commercial sexual or labor exploitation [source](https://insightcrime.org/wp-content/uploads/2023/08/HGBF-Geography-of-Human-Trafficking-on-the-US-Mexico-Border-InSight-Crime-Aug-2023-FINAL.pdf)
 
-TO DO: 
-- Comment on human trafficking
-- Take a look at corruption allegations aimed at the various agencies
-- Find some good numbers on human trafficking
 
 # Future work
 Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
 
 
 # License
-[MIT License](https://opensource.org/license/mit/).
+[MIT License](https://opensource.org/license/mit/)
