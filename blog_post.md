@@ -48,7 +48,7 @@ Given the NIBRS data completeness issues, I normalized the data by adjusting the
 
 ![normalized_crime_trends](https://github.com/ghgeist/texas_border_data_analysis/assets/22363767/bf4b1ca3-07a6-45ad-a2c1-894582cf2027)
 
-From this graph, we can see that larency-theft and assault are the two most commonly record crimes. However, it seems that the border counties are rarely reporting human trafficking:
+From this graph, we can see that larceny-theft and assault are the two most commonly record crimes. However, it seems that the border counties are rarely reporting human trafficking:
 | report_year   |   eligible_agencies |   Human Trafficking Commercial Sex Acts |   Human Trafficking Involuntary Servitude |
 |:--------------|--------------------:|----------------------------------------:|------------------------------------------:|
 | 2017          |                   7 |                                       0 |                                         0 |
@@ -60,7 +60,7 @@ From this graph, we can see that larency-theft and assault are the two most comm
 | 2023          |                  85 |                                      12 |                                        71 |
 | **Total**     |                     |                                  **37** |                                    **310**| 
 
-In six years, there has only been 37 reports of human trafficking-commerical sex acts and 310 reports of human trafficking-involuntary servitude. These numbers likely misrepresent the reality considering the severity of human trafficking on the US-Mexico border. Both large criminal organizations and smaller local groups target migrants for commercial sexual or labor exploitation[^5].
+In six years, there has only been 37 reports of human trafficking-commercial and 310 reports of human trafficking-involuntary servitude. These numbers likely misrepresent the reality considering the severity of human trafficking on the US-Mexico border. Both large criminal organizations and smaller local groups target migrants for commercial sexual or labor exploitation[^5].
 
 # Conclusion and Recommendations
 Given the inaccessibility and incompleteness of the TDPS's border report data, it is difficult to draw any conclusions about the border crisis. In addition, subject matter expertise is required to understand what the different crime types represent, and how they may or may not be indicative of the current situation on the boarder. To make this data more accessible to the public, TDPS should provide clear documentation on what the report is designed to do as well as a data dictionary.
