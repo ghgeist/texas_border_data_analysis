@@ -1,86 +1,86 @@
-county,agency_name,agency_type,university_pd
-Hidalgo County,ALAMO PD,Police Department,False
-Brewster County,ALPINE PD,Police Department,False
-Hidalgo County,ALTON PD,Police Department,False
-El Paso County,ANTHONY PD,Police Department,False
-Brewster County,BREWSTER CO SO,Sheriff's Office,False
-Cameron County,BROWNSVILLE ISD PD,Police Department,False
-Cameron County,BROWNSVILLE PD,Police Department,False
-Cameron County,CAMERON CO CONSTABLE PCT 3,Constable,False
-Cameron County,CAMERON CO CONSTABLE PCT 4,Constable,False
-Cameron County,CAMERON CO SO,Sheriff's Office,False
-El Paso County,CLINT PD,Police Department,False
-Cameron County,COMBES PD,Police Department,False
-Val Verde County,DEL RIO PD,Police Department,False
-Hidalgo County,DONNA PD,Police Department,False
-Maverick County,EAGLE PASS PD,Police Department,False
-Hidalgo County,EDCOUCH PD,Police Department,False
-Hidalgo County,EDINBURG CISD PD,Police Department,False
-Hidalgo County,EDINBURG PD,Police Department,False
-El Paso County,EL PASO CO SO,Sheriff's Office,False
-El Paso County,EL PASO COMM COLLEGE PD,Sheriff's Office,True
-El Paso County,EL PASO ISD PD,Sheriff's Office,False
-El Paso County,EL PASO PD,Sheriff's Office,False
-Hidalgo County,ELSA PD,Police Department,False
-Cameron County,HARLINGEN PD,Police Department,False
-Hidalgo County,HIDALGO CO CONSTABLE PCT 1,Constable,False
-Hidalgo County,HIDALGO CO CONSTABLE PCT 4,Constable,False
-Hidalgo County,HIDALGO CO CONSTABLE PCT. 5,Constable,False
-Hidalgo County,HIDALGO CO SO,Sheriff's Office,False
-Hidalgo County,HIDALGO PD,Police Department,False
-El Paso County,HORIZON CITY PD,Police Department,False
-Hudspeth County,HUDSPETH CO SO,Sheriff's Office,False
-Jeff Davis County,JEFF DAVIS CO SO,Sheriff's Office,False
-Kinney County,KINNEY CO SO,Sheriff's Office,False
-Cameron County,LA FERIA PD,Police Department,False
-Starr County,LA GRULLA PD,Police Department,False
-Hidalgo County,LA JOYA PD,Police Department,False
-Hidalgo County,LA VILLA PD,Police Department,False
-Cameron County,LAGUNA VISTA PD,Police Department,False
-Webb County,LAREDO ISD PD,Police Department,False
-Webb County,LAREDO PD,Police Department,False
-Cameron County,LOS FRESNOS PD,Police Department,False
-Presidio County,MARFA PD,Police Department,False
-Maverick County,MAVERICK CO SO,Sheriff's Office,False
-Hidalgo County,MCALLEN ISD PD,Police Department,False
-Hidalgo County,MCALLEN PD,Police Department,False
-Hidalgo County,MERCEDES PD,Police Department,False
-Hidalgo County,MISSION PD,Police Department,False
-Cameron County,PALM VALLEY PD,Police Department,False
-Hidalgo County,PALMHURST PD,Police Department,False
-Hidalgo County,PALMVIEW PD,Police Department,False
-Hidalgo County,PENITAS PD,Police Department,False
-Hidalgo County,PHARR PD,Police Department,False
-Cameron County,POINT ISABEL ISD PD,Police Department,False
-Cameron County,PORT ISABEL PD,Police Department,False
-Cameron County,PORT OF BROWNSVILLE PD,Police Department,False
-Presidio County,PRESIDIO CO SO,Sheriff's Office,False
-Presidio County,PRESIDIO PD,Police Department,False
-Cameron County,PRIMERA PD,Police Department,False
-Cameron County,RANCHO VIEJO PD,Police Department,False
-Starr County,RIO GRANDE CITY ISD PD,Police Department,False
-Starr County,RIO GRANDE CITY PD,Police Department,False
-Cameron County,RIO HONDO PD,Police Department,False
-Starr County,ROMA ISD PD,Police Department,False
-Starr County,ROMA PD,Police Department,False
-Cameron County,SAN BENITO PD,Police Department,False
-El Paso County,SAN ELIZARIO MARSHALS OFFICE,Marshal,False
-Hidalgo County,SAN JUAN PD,Police Department,False
-Cameron County,SANTA ROSA ISD PD,Police Department,False
-El Paso County,SOCORRO ISD PD,Sheriff's Office,False
-El Paso County,SOCORRO PD,Sheriff's Office,False
-Cameron County,SOUTH PADRE ISLAND PD,Sheriff's Office,False
-Starr County,STARR CO SO,Sheriff's Office,False
-Brewster County,SUL ROSS STATE UNIV PD,Police Department,True
-Hidalgo County,SULLIVAN CITY PD,Police Department,False
-Terrell County,TERRELL CO SO,Sheriff's Office,False
-Cameron County,TSTC: HARLINGEN PD,Police Department,True
-Webb County,TX A&M UNIV INTERNATIONAL PD,Police Department,True
-Webb County,UNITED ISD PD,Police Department,False
-Hidalgo County,UNIV OF TX RIO GRANDE VALLEY PD,Police Department,True
-El Paso County,UNIV OF TX: EL PASO PD,Sheriff's Office,True
-Val Verde County,VAL VERDE CO SO,Sheriff's Office,False
-Webb County,WEBB CO CONSTABLE PCT 1 (PD),Constable,False
-Webb County,WEBB CO SO,Sheriff's Office,False
-Hidalgo County,WESLACO PD,Police Department,False
-Zapata County,ZAPATA CO SO,Sheriff's Office,False
+county,agency_name,agency_type
+Hidalgo County,ALAMO PD,Police Department
+Brewster County,ALPINE PD,Police Department
+Hidalgo County,ALTON PD,Police Department
+El Paso County,ANTHONY PD,Police Department
+Brewster County,BREWSTER CO SO,Sheriff's Office
+Cameron County,BROWNSVILLE ISD PD,School Police
+Cameron County,BROWNSVILLE PD,Police Department
+Cameron County,CAMERON CO CONSTABLE PCT 3,Constable
+Cameron County,CAMERON CO CONSTABLE PCT 4,Constable
+Cameron County,CAMERON CO SO,Sheriff's Office
+El Paso County,CLINT PD,Police Department
+Cameron County,COMBES PD,Police Department
+Val Verde County,DEL RIO PD,Police Department
+Hidalgo County,DONNA PD,Police Department
+Maverick County,EAGLE PASS PD,Police Department
+Hidalgo County,EDCOUCH PD,Police Department
+Hidalgo County,EDINBURG CISD PD,School Police
+Hidalgo County,EDINBURG PD,Police Department
+El Paso County,EL PASO CO SO,Sheriff's Office
+El Paso County,EL PASO COMM COLLEGE PD,University Police
+El Paso County,EL PASO ISD PD,School Police
+El Paso County,EL PASO PD,Sheriff's Office
+Hidalgo County,ELSA PD,Police Department
+Cameron County,HARLINGEN PD,Police Department
+Hidalgo County,HIDALGO CO CONSTABLE PCT 1,Constable
+Hidalgo County,HIDALGO CO CONSTABLE PCT 4,Constable
+Hidalgo County,HIDALGO CO CONSTABLE PCT. 5,Constable
+Hidalgo County,HIDALGO CO SO,Sheriff's Office
+Hidalgo County,HIDALGO PD,Police Department
+El Paso County,HORIZON CITY PD,Police Department
+Hudspeth County,HUDSPETH CO SO,Sheriff's Office
+Jeff Davis County,JEFF DAVIS CO SO,Sheriff's Office
+Kinney County,KINNEY CO SO,Sheriff's Office
+Cameron County,LA FERIA PD,Police Department
+Starr County,LA GRULLA PD,Police Department
+Hidalgo County,LA JOYA PD,Police Department
+Hidalgo County,LA VILLA PD,Police Department
+Cameron County,LAGUNA VISTA PD,Police Department
+Webb County,LAREDO ISD PD,School Police
+Webb County,LAREDO PD,Police Department
+Cameron County,LOS FRESNOS PD,Police Department
+Presidio County,MARFA PD,Police Department
+Maverick County,MAVERICK CO SO,Sheriff's Office
+Hidalgo County,MCALLEN ISD PD,School Police
+Hidalgo County,MCALLEN PD,Police Department
+Hidalgo County,MERCEDES PD,Police Department
+Hidalgo County,MISSION PD,Police Department
+Cameron County,PALM VALLEY PD,Police Department
+Hidalgo County,PALMHURST PD,Police Department
+Hidalgo County,PALMVIEW PD,Police Department
+Hidalgo County,PENITAS PD,Police Department
+Hidalgo County,PHARR PD,Police Department
+Cameron County,POINT ISABEL ISD PD,School Police
+Cameron County,PORT ISABEL PD,Police Department
+Cameron County,PORT OF BROWNSVILLE PD,Police Department
+Presidio County,PRESIDIO CO SO,Sheriff's Office
+Presidio County,PRESIDIO PD,Police Department
+Cameron County,PRIMERA PD,Police Department
+Cameron County,RANCHO VIEJO PD,Police Department
+Starr County,RIO GRANDE CITY ISD PD,School Police
+Starr County,RIO GRANDE CITY PD,Police Department
+Cameron County,RIO HONDO PD,Police Department
+Starr County,ROMA ISD PD,School Police
+Starr County,ROMA PD,Police Department
+Cameron County,SAN BENITO PD,Police Department
+El Paso County,SAN ELIZARIO MARSHALS OFFICE,Marshal
+Hidalgo County,SAN JUAN PD,Police Department
+Cameron County,SANTA ROSA ISD PD,School Police
+El Paso County,SOCORRO ISD PD,School Police
+El Paso County,SOCORRO PD,Sheriff's Office
+Cameron County,SOUTH PADRE ISLAND PD,Sheriff's Office
+Starr County,STARR CO SO,Sheriff's Office
+Brewster County,SUL ROSS STATE UNIV PD,University Police
+Hidalgo County,SULLIVAN CITY PD,Police Department
+Terrell County,TERRELL CO SO,Sheriff's Office
+Cameron County,TSTC: HARLINGEN PD,University Police
+Webb County,TX A&M UNIV INTERNATIONAL PD,University Police
+Webb County,UNITED ISD PD,School Police
+Hidalgo County,UNIV OF TX RIO GRANDE VALLEY PD,University Police
+El Paso County,UNIV OF TX: EL PASO PD,University Police
+Val Verde County,VAL VERDE CO SO,Sheriff's Office
+Webb County,WEBB CO CONSTABLE PCT 1 (PD),Constable
+Webb County,WEBB CO SO,Sheriff's Office
+Hidalgo County,WESLACO PD,Police Department
+Zapata County,ZAPATA CO SO,Sheriff's Office
