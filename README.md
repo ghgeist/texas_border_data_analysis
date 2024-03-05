@@ -13,7 +13,6 @@ Inspired by ProPublica’s [investigation](https://www.propublica.org/article/te
   - How accessible is the data?
   - How complete is the data?
   - What are the trends within the data, and what can I understand about the border crisis given these numbers?
-  - Are there any indications of corruption amongst the law enforcement agencies?
 
 # Installation and Setup
 
@@ -140,7 +139,7 @@ In six years, there has only been 37 reports of human trafficking-commerical sex
 
 
 # Future work
-Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
+Talk about looking corruption based upon news sources
 
 
 # License
