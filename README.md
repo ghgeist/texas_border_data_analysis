@@ -146,7 +146,7 @@ Given the inaccessibility and incompleteness of the TDPS's border report data, i
 [^1]: [TDPS Uniform Crime Reporting Program Overview](https://www.dps.texas.gov/section/crime-records/uniform-crime-reporting-program-ucr-overview)
 [^2]: [FBI Unified Crime Reporting FAQs](https://www2.fbi.gov/ucr/faqs.htm)
 [^3]: [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/quarterly).
-[^4] [The Marshall Project: 4 Reasons We Should Worry About Missing Crime Data](https://www.themarshallproject.org/2023/07/13/fbi-crime-rates-data-gap-nibrs)
+[^4]: [The Marshall Project: 4 Reasons We Should Worry About Missing Crime Data](https://www.themarshallproject.org/2023/07/13/fbi-crime-rates-data-gap-nibrs)
 [^5]: [Insight Crime: The Geography of Human Trafficking on the US-Mexico Border](https://insightcrime.org/wp-content/uploads/2023/08/HGBF-Geography-of-Human-Trafficking-on-the-US-Mexico-Border-InSight-Crime-Aug-2023-FINAL.pdf)
 
 # License

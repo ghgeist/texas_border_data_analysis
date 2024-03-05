@@ -14,7 +14,7 @@ Inspired by ProPublica’s [investigation](https://www.propublica.org/article/te
 # Background
 Prior to 2023, crime reporting in Texas was _voluntary_. It was only in 2023 that the Texas Legislature mandated that local law enforcement agencies implement an incident-based reporting system and use it to report data and statistics to the Unified Crime Reporting (UCR) program[^1]. Currently, TDPS is transitioning between the FBI's legacy UCR, Summary Reporting System (SRS), to the new National Incident-Based Reporting System (NIBRS). The best way to understand the difference between the two reporting methods is that SRS typically aggregates crime data into broad categories and totals while records detailed information about each individual crime incident (i.e. characteristics of victims and offenders, location and time of the incident, weapons used, and relationship between victim and offender). Despite the additional details in the NIBRS, the reports _do not_ contain any information about the immigration status of either the victims or offenders, and although NIBRS has been approved for general use since March 1988 [^2], only 73% of the U.S.'s law enforcement agencies are participating as of the third quarter in 2023[^3].
 
-### The Data
+# The Data
 The report covers 85 law enforcement agencies, 6 law enforcement agency types 14 counties and 11 NIBRS crime types.
 
 ![image](https://github.com/ghgeist/texas_border_data_analysis/assets/22363767/6c896ad8-3317-4b37-a097-ca0cd4207bda)
@@ -73,5 +73,5 @@ Given the inaccessibility and incompleteness of the TDPS's border report data, i
 [^1]: [TDPS Uniform Crime Reporting Program Overview](https://www.dps.texas.gov/section/crime-records/uniform-crime-reporting-program-ucr-overview)
 [^2]: [FBI Unified Crime Reporting FAQs](https://www2.fbi.gov/ucr/faqs.htm)
 [^3]: [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/quarterly).
-[^4] [The Marshall Project: 4 Reasons We Should Worry About Missing Crime Data](https://www.themarshallproject.org/2023/07/13/fbi-crime-rates-data-gap-nibrs)
+[^4]: [The Marshall Project: 4 Reasons We Should Worry About Missing Crime Data](https://www.themarshallproject.org/2023/07/13/fbi-crime-rates-data-gap-nibrs)
 [^5]: [Insight Crime: The Geography of Human Trafficking on the US-Mexico Border](https://insightcrime.org/wp-content/uploads/2023/08/HGBF-Geography-of-Human-Trafficking-on-the-US-Mexico-Border-InSight-Crime-Aug-2023-FINAL.pdf)
