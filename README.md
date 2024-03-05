@@ -1,4 +1,6 @@
-![alt text](image.png)
+<p align="center">
+  <img width="400" height="400" src="https://github.com/ghgeist/texas_border_data_analysis/assets/22363767/a05d4b89-346d-40b6-aa02-aa60f538b11e">
+</p>
 
 # Trouble in Texas: Insights from the Texas Department of Public Safety’s Border Report
 
